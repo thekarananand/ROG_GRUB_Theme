@@ -13,3 +13,7 @@ cd ROG_GRUB_Theme
 chmod +x install.sh
 sudo ./install.sh
 ```
+
+
+
+*the theme is based on an image on the internet.
