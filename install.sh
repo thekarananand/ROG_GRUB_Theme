@@ -10,4 +10,4 @@ echo 'GRUB_GFXMODE="auto"' >> /etc/default/grub
 echo 'GRUB_TIMEOUT="10"' >> /etc/default/grub
 echo 'GRUB_TIMEOUT_STYLE="menu"' >> /etc/default/grub
 
-update-grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
